@@ -1,0 +1,322 @@
+.about {
+    margin: 400px 0 0 0;
+
+    &__container {}
+
+    &__body {}
+
+    &__up-block {
+
+        display: flex;
+        align-items: center;
+    }
+
+    &__main-text {
+        position: absolute;
+        top: 100px;
+        left: 400px;
+        width: 624px;
+        height: 356px;
+        padding: 64px;
+        background-color: #fff;
+
+        @media (max-width:1775px) {
+            width: 424px;
+            height: 300px;
+        }
+
+        @media (max-width:1600px) {
+            text-align: center;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        @media (max-width:539px) {
+            width: 324px;
+            height: 300px;
+            top: 35%;
+            left: 50%;
+            
+        }
+    }
+
+    &__up-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #232536;
+        margin: 0 0 16px 0;
+
+        @media (max-width:1775px) {
+            font-size: 15px;
+        }
+        @media (max-width:539px) {
+            font-size: 10px;
+        }
+    }
+
+    &__title {
+        font-family: 'Sen', sans-serif;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        letter-spacing: -2px;
+        color: #232536;
+
+        @media (max-width:1775px) {
+            font-size: 28px;
+        }
+        @media (max-width:539px) {
+            font-size: 18px;
+        }
+    }
+
+    &__text {
+        position: absolute;
+        top: 230px;
+        right: 350px;
+        width: 477px;
+        height: 112px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        margin: 0 0 0 32px;
+        color: #4C4C4C;
+
+        @media (max-width:1600px) {
+            display: none;
+        }
+
+    }
+
+    &__main-block {
+        display: flex;
+    }
+
+    &__img {}
+
+    &__activity {
+        position: absolute;
+        align-items: center;
+        text-align: center;
+        width: 630px;
+        height: 156px;
+        bottom: 103px;
+        left: 400px;
+        background: #FFD050;
+        display: flex;
+
+        padding: 32px 48px;
+
+        @media (max-width:1775px) {
+            top: 100%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        @media (max-width:1600px) {
+            display: none;
+        }
+  
+        
+    }
+
+    &__text-block {}
+
+    &__text-block:not(:last-child) {
+        margin: 0 88px 0 0;
+        @media (max-width:703px) {
+            margin: 0 18px 0 0;
+        }
+        @media (max-width:539px) {
+            margin: 0 8px 0 0;
+
+        }
+
+    }
+
+    &__number {
+        font-family: 'Sen', sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -2px;
+        color: #232536;
+        @media (max-width:1600px) {
+            font-size: 36px;
+        }
+        @media (max-width:703px) {
+            line-height: 44px;
+            font-size: 26px;
+        }
+        @media (max-width:539px) {
+            font-size: 16px;
+            line-height: 34px;
+        }
+    }
+
+    &__activity-text {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 28px;
+        color: #232536;
+        @media (max-width:1600px) {
+            font-size: 11px;
+            line-height: 18px;
+        }
+        @media (max-width:539px) {
+            font-size: 9px;
+
+        }
+    }
+
+}
+
+
+// Our
+
+.our {
+
+    &__container {}
+
+    &__body {
+        background: #F4F0F8;
+        padding: 128px 108px 64px 108px;
+        display: flex;
+        @media (max-width:1100px) {
+            flex-direction: column;
+        }
+        @media (max-width:800px) {
+            padding: 60px;
+        }
+        @media (max-width:600px) {
+            padding: 30px;
+        }
+    }
+
+    &__mision-vision {
+       
+    }
+
+    &__mision-vision:not(:last-child) {
+        margin: 0 32px 0 0;
+        @media (max-width:1100px) {
+            margin: 0 0 40px 0;
+         }
+    }
+
+    &__up-text {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #232536;
+        @media (max-width:620px) {
+            font-size: 14px;
+         }
+    }
+
+    &__title {
+        margin: 24px 0 16px 0;
+        font-family: 'Sen', sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 40px;
+        letter-spacing: -1px;
+        color: #232536;
+        @media (max-width:620px) {
+            font-size: 20px;
+         }
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #6D6E76;
+        @media (max-width:620px) {
+            font-size: 14px;
+         }
+    }
+}
+
+// Team
+
+.team {
+    margin: 128px 0 90px 0;
+
+    &__container {}
+
+    &__body {}
+
+    &__column {}
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 124px;
+
+        @media (max-width: 1307px) {
+            flex-direction: column;
+            margin: 0 0 20px 0;
+        }
+    }
+
+
+    &__main-text {
+        width: 519px;
+        @media (max-width:880px) {
+            width: 419px;
+         }
+         @media (max-width:425px) {
+            width: 319px;
+         }
+    }
+
+    &__img {
+        @media (max-width:425px) {
+            width: 319px;
+         }
+    }
+
+    &__title {
+        font-family: 'Sen', sans-serif;
+
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -2px;
+
+        color: #232536;
+    }
+
+    &__down-text {
+        font-family: 'Sen', sans-serif;
+        margin: 16px 0;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+
+        color: #232536;
+
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #232536;
+
+    }
+}
+
+.team__block:last-child {
+    @media (max-width: 1307px) {
+        flex-direction: column-reverse;
+    }
+}
